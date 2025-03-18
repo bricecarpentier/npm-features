@@ -24,7 +24,7 @@ and npm and running `npm install -g typescript`.
 ```jsonc
 // devcontainer.json
 "features": {
-  "ghcr.io/devcontainers-community/features/typescript": {}
+  "ghcr.io/devcontainers-community/npm-features/typescript": {}
 }
 ```
 
@@ -35,7 +35,7 @@ You can specify a specific TypeScript version like this:
 ```jsonc
 // devcontainer.json
 "features": {
-  "ghcr.io/devcontainers-community/features/typescript": {
+  "ghcr.io/devcontainers-community/npm-features/typescript": {
     "version": "5.0.0"
   }
 }
